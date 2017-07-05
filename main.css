@@ -9,3 +9,19 @@
     margin: auto;
     padding: 50px 10px;
 }
+.image-box{
+    margin-top: 50px;
+    padding: 50px 10px;
+    border-radius: 5px;
+    box-shadow: -5px 0 8px grey, 0 5px 8px grey, 5px 0 8px grey, 0 -5px 8px grey;
+}
+.img{
+    max-width: 200px;
+    margin-left: 13px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px grey;
+}
+.img:hover{
+    cursor: pointer;
+   box-shadow: -2px 0 5px dodgerblue, 0 2px 5px dodgerblue, 2px 0 5px dodgerblue, 0 -2px 5px dodgerblue; 
+}
