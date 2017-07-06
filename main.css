@@ -15,6 +15,11 @@
     border-radius: 5px;
     box-shadow: -5px 0 8px grey, 0 5px 8px grey, 5px 0 8px grey, 0 -5px 8px grey;
 }
+.modal-image-box{
+    width: 880px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 50px 10px;}
 .img{
     max-width: 200px;
     margin-left: 13px;
@@ -22,7 +27,15 @@
     box-shadow: 3px 3px 10px grey;
     transition: all 200ms ease-in-out;
 }
-.img:hover{
+.demo-img{
+    max-width: 200px;
+    margin-left: 13px;
+    border-radius: 5px;
+    box-shadow: -1px 0 3px grey, 0 1px 3px grey, 1px 0 3px grey, 0 -1px 3px grey;
+    transition: all 200ms ease-in-out;
+}
+.img:hover,
+.demo-img:hover{
     cursor: pointer;
    box-shadow: -3px 0 5px dodgerblue, 0 3px 5px dodgerblue, 3px 0 5px dodgerblue, 0 -3px 5px dodgerblue; 
 }
@@ -30,7 +43,9 @@
     color: white;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; 
     font-size: 50px;
-    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
     transition: all 200ms ease-in-out;
 }
 .close:hover,
@@ -50,4 +65,13 @@
     height: 100%;
     overflow: auto;
     background-color: black;
+}
+.modal-content{
+    width: 50%;
+    margin: auto;
+}
+#modal-content-image{
+    width: 100%;
+    margin: auto;
+    display: block;
 }
